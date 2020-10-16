@@ -401,10 +401,13 @@ MonoBehaviour:
   isRightWall: 0
   isLeftWall: 0
   canRightWallJump: 0
+  canLeftWallJump: 0
   jumpUpDown: 0
   jumpUpHold: 0
   jumpUpUp: 0
   jumpDownDown: 0
+  airDashDown: 0
+  jumpChance: 1
 --- !u!1 &2103401056
 GameObject:
   m_ObjectHideFlags: 0

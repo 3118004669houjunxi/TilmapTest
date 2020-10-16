@@ -62,6 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CharacterModel\QQ\CharacterMove.cs" />
+    <Compile Include="Assets\CharacterModel\TestCharacter\NewABC.cs" />
     <Compile Include="Assets\DragonBone\Demos\Scripts\AnimationBase.cs" />
     <Compile Include="Assets\DragonBone\Demos\Scripts\AnimationLayer.cs" />
     <Compile Include="Assets\DragonBone\Demos\Scripts\BaseDemo.cs" />
@@ -125,7 +127,6 @@
     <Compile Include="Assets\DragonBone\Scripts\unity\UnitySlot.cs" />
     <Compile Include="Assets\DragonBone\Scripts\unity\UnityTextureAtlasData.cs" />
     <Compile Include="Assets\DragonBone\Scripts\unity\UnityUGUIDisplay.cs" />
-    <Compile Include="Assets\Scripts\CharacterMove.cs" />
     <None Include="Assets\DragonBone\Demos\Scripts\LightTestShader.shader" />
     <None Include="Assets\DragonBone\Resources\Shaders\DB_BlendMode_UIGrab.shader" />
     <None Include="Assets\DragonBone\Resources\Shaders\DB_BlendMode_Grab.shader" />
