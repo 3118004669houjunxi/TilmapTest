@@ -632,6 +632,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity Project/New/2DGameSystem/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>D:/Unity Project/New/2DGameSystem/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>D:/Unity Project/New/2DGameSystem/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
@@ -694,6 +697,9 @@
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>D:/Unity Project/New/2DGameSystem/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:/Unity Project/New/2DGameSystem/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>D:/Unity Project/New/2DGameSystem/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>

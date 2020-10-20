@@ -62,7 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CharacterModel\QQ\CharacterMove.cs" />
     <Compile Include="Assets\CharacterModel\TestCharacter\NewABC.cs" />
     <Compile Include="Assets\DragonBone\Demos\Scripts\AnimationBase.cs" />
     <Compile Include="Assets\DragonBone\Demos\Scripts\AnimationLayer.cs" />
@@ -127,6 +126,12 @@
     <Compile Include="Assets\DragonBone\Scripts\unity\UnitySlot.cs" />
     <Compile Include="Assets\DragonBone\Scripts\unity\UnityTextureAtlasData.cs" />
     <Compile Include="Assets\DragonBone\Scripts\unity\UnityUGUIDisplay.cs" />
+    <Compile Include="Assets\Scripts\GameMenuSetting.cs" />
+    <Compile Include="Assets\Scripts\GameSave.cs" />
+    <Compile Include="Assets\Scripts\PlayerControl.cs" />
+    <Compile Include="Assets\Scripts\PlayerUnitSetting.cs" />
+    <Compile Include="Assets\Scripts\SaveAndLoad.cs" />
+    <Compile Include="Assets\Scripts\SenceChange.cs" />
     <None Include="Assets\DragonBone\Demos\Scripts\LightTestShader.shader" />
     <None Include="Assets\DragonBone\Resources\Shaders\DB_BlendMode_UIGrab.shader" />
     <None Include="Assets\DragonBone\Resources\Shaders\DB_BlendMode_Grab.shader" />
@@ -670,6 +675,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity Project/New/2DGameSystem/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>D:/Unity Project/New/2DGameSystem/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>D:/Unity Project/New/2DGameSystem/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
@@ -732,6 +740,9 @@
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>D:/Unity Project/New/2DGameSystem/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:/Unity Project/New/2DGameSystem/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>D:/Unity Project/New/2DGameSystem/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
