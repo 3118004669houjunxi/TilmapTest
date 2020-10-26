@@ -1,20 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameMenuSetting : MonoBehaviour
 {
     [Header("UI控件")]
-    public GameObject loadMenu;
-    public Image pauseBoard;
-    public GameObject saveBoard;
+    GameObject loadMenu;
+    Image pauseBoard;
+    GameObject saveBoard;
     [Header("私有参数")]
     bool isPause = false;
     float x = 0;
     void Start()
     {
-        
+        loadMenu = PlayerUnitSetting.instance.loadMenu;
+        pauseBoard = PlayerUnitSetting.instance.pauseBoard;
+        saveBoard = PlayerUnitSetting.instance.saveBoard;
     }
 
     // Update is called once per frame
@@ -66,6 +69,7 @@ public class GameMenuSetting : MonoBehaviour
                 break;
         }
         S.Save(num);
+        S.Save(0);
     }
     public void OnClickLButton()
     {
@@ -90,6 +94,13 @@ public class GameMenuSetting : MonoBehaviour
         S.Load(num);
         isPause = false;
         loadMenu.SetActive(false);
+    }
+    public void OnclickBackToTitle()
+    {
+        isPause = false;
+        PlayerUnitSetting.instance.player.SetActive(false);
+        PlayerUnitSetting.instance.canvas.SetActive(false);
+        SceneManager.LoadScene(0);
     }
     public void OnClickLoadMenuBotton()
     {

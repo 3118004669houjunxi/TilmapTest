@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Boom
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -16,8 +15,8 @@ TagManager:
   - 
   - Ground
   - Player
-  - 
-  - 
+  - Thorn
+  - Enemies
   - 
   - 
   - 
@@ -44,4 +43,10 @@ TagManager:
     locked: 0
   - name: Platforms
     uniqueID: 237045229
+    locked: 0
+  - name: Enemies
+    uniqueID: 2618793545
+    locked: 0
+  - name: Player
+    uniqueID: 3562219181
     locked: 0

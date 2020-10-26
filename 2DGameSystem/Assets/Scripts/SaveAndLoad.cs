@@ -43,10 +43,10 @@ public class SaveAndLoad
 public class SaveData
 {
     public int sceneIndex;
-    public int maxHP;
-    public int maxMP;
-    public int HP;
-    public int MP;
+    public float maxHP;
+    public float maxMP;
+    public float HP;
+    public float MP;
     public int ATK;
     public int gameProgress;
     public float positionX;
